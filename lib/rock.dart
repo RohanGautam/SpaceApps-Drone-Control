@@ -22,6 +22,7 @@ class Rock {
   int count =1;
   var socket = ClientWebSocket();
   var scaleDistance = 10;
+  var countThreshold = 50;
 
   Rock(this.game) {
     size = game.tileSize * aspectRatio;
@@ -32,8 +33,7 @@ class Rock {
   }
 
   void render(Canvas canvas) {
-    if (count>50){
-      // dist=50;
+    if (count>countThreshold){
       var distStr = socket.getDataFromServer();
       print(distStr);
       if (distStr != "0.0" && distStr!=null) {

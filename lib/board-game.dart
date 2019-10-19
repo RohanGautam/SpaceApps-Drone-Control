@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flame/flame.dart';
 import 'package:flame/game.dart';
+import 'package:flame/sprite.dart';
 
 import 'package:flutter/gestures.dart';
 
@@ -18,8 +19,11 @@ class BoardGame extends Game {
   PlayerShip playerShip;
   Rock rock;
 
+  Sprite gameBackgroundSprite;
+
   BoardGame() {
     initialize();
+    gameBackgroundSprite = Sprite('darkNebula.jpg');
   }
 
   void initialize() async {
@@ -37,6 +41,7 @@ class BoardGame extends Game {
 
   @override
   void render(Canvas canvas) {
+    gameBackgroundSprite.render(canvas);
     controller.render(canvas);
     playerShip.render(canvas);
     rock.render(canvas);
