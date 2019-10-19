@@ -12,7 +12,7 @@ class PlayerShip {
 
   double aspectRatio = 1.4;
   double size;
-  double speed = 200.0;
+  double speed = 80.0;
   Rect rect;
   Sprite sprite;
 

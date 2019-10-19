@@ -7,6 +7,7 @@ import 'package:flutter/gestures.dart';
 
 import 'controller.dart';
 import 'player-ship.dart';
+import 'rock.dart';
 
 class BoardGame extends Game {
 
@@ -15,6 +16,7 @@ class BoardGame extends Game {
 
   Controller controller;
   PlayerShip playerShip;
+  Rock rock;
 
   BoardGame() {
     initialize();
@@ -25,6 +27,7 @@ class BoardGame extends Game {
 
     controller = Controller(this);
     playerShip = PlayerShip(this);
+    rock = Rock(this);
   }
 
   void resize(Size size) {
@@ -36,12 +39,14 @@ class BoardGame extends Game {
   void render(Canvas canvas) {
     controller.render(canvas);
     playerShip.render(canvas);
+    rock.render(canvas);
   }
 
   @override
   void update(double t) {
     controller.update(t);
     playerShip.update(t);
+    // rock.update(t);
   }
 
   void onPanStart(DragStartDetails details) {

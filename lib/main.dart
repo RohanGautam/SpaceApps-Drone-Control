@@ -19,7 +19,7 @@ void main() async {
     'joystick_background.png',
     'joystick_knob.png',
     'player_ship_red.png',
-    'stone.png'
+    'rock.png'
   ]);
 
   runApp(MyApp());
