@@ -23,7 +23,7 @@ class BoardGame extends Game {
 
   BoardGame() {
     initialize();
-    gameBackgroundSprite = Sprite('darkNebula.jpg');
+    gameBackgroundSprite = Sprite('darkNebulaPath.png');
   }
 
   void initialize() async {

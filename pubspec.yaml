@@ -46,7 +46,7 @@ flutter:
     - assets/images/joystick_knob.png
     - assets/images/player_ship_red.png
     - assets/images/rock.png
-    - assets/images/darkNebula.jpg
+    - assets/images/darkNebulaPath.png
 
 
   # To add assets to your application, add an assets section, like this:
