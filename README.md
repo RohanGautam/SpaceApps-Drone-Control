@@ -1,8 +1,10 @@
-# UAV Control
+# SpaceApps-Drone-Control
 
 An intuitive app developed to control Unmanned Arial vehicles (UAVs), along with proximity object detection. Winner (Singapore), NASA SpaceApps challenge, 2019.
 
 The challenge we tackled is [here](https://2019.spaceappschallenge.org/challenges/planets-near-and-far/out-world/details).
+
+## Developed alongside `SpaceApps-Drone-Inject`, located [here](https://github.com/RohanGautam/SpaceApps-Drone-Inject).
 
 # Working demo:
 [![UAV control and obstacle detection](https://i.ibb.co/dpZRCGs/https-i-ytimg-com-vi-dtc-QKn-DWvl-U-maxresdefault.jpg)](https://www.youtube.com/watch?v=dtcQKnDWvlU&feature=youtu.be "UAV control and obstacle detection")
