@@ -10,6 +10,7 @@ import time, socket
  
 #GPIO Mode (BOARD / BCM)
 GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
  
 #set GPIO Pins
 GPIO_TRIGGER = 18

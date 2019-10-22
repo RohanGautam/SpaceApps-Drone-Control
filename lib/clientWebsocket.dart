@@ -3,7 +3,7 @@ import 'dart:io';
 
 class ClientWebSocket {
   final HOST =
-      "10.0.1.136"; // # The SERVER's hostname/IP - find from machine, should not be the public IP
+      "192.168.1.107"; // # The SERVER's hostname/IP - find from machine, should not be the public IP
   final PORT =
       65432; //Port to listen on (non-privileged ports are > 1023), should be same for client and server
 

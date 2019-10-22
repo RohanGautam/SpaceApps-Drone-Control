@@ -18,3 +18,4 @@ HOST (both in `flutterDistanceCommunicate.py` and `clientWebSocket.dart`) to you
 * [Socket programming with python](https://realpython.com/python-sockets/#echo-client-and-server)
 * [Using Flame, and building a joystick to control a plane in flutter](https://medium.com/@gilesjeremydev/create-a-virtual-joystick-for-flame-game-cf62cad7bc4)
 * [PixlrX](https://pixlr.com/x/) for image editing (it's great)
+* [Connecting the HC-SR04 distance sensor](https://thepihut.com/blogs/raspberry-pi-tutorials/hc-sr04-ultrasonic-range-sensor-on-the-raspberry-pi) to the pi
