@@ -10,7 +10,7 @@ The challenge we tackled is [here](https://2019.spaceappschallenge.org/challenge
 [![UAV control](https://i.ibb.co/N1cp1HQ/https-i-ytimg-com-vi-z3-Ly-KYZ2-JC4-maxresdefault.jpg)](https://youtu.be/z3LyKYZ2JC4 "UAV control")
 
 
-# Schematic for both Code injectin and UAV control (present in `rPiFiles/schematic`)
+# Schematic for both Code injection and UAV control (present in `rPiFiles/schematic`)
 ![Schematic](rPiFiles/schematic/schematic.png)
 > Communication is done via websockets between the flutter application(client) and the RPi(server), so make sure you change HOST (both in `flutterDistanceCommunicate.py` and `clientWebSocket.dart`) to your particular private IP address, and ensure both the Pi and the flutter mobile app are connected to the same network.
 
