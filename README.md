@@ -7,8 +7,7 @@ The challenge we tackled is [here](https://2019.spaceappschallenge.org/challenge
 ## Developed alongside `SpaceApps-Drone-Inject`, located [here](https://github.com/RohanGautam/SpaceApps-Drone-Inject).
 
 # Working demo:
-[![UAV control and obstacle detection](https://i.ibb.co/dpZRCGs/https-i-ytimg-com-vi-dtc-QKn-DWvl-U-maxresdefault.jpg)](https://www.youtube.com/watch?v=dtcQKnDWvlU&feature=youtu.be "UAV control and obstacle detection")
-
+[![UAV control](https://i.ibb.co/N1cp1HQ/https-i-ytimg-com-vi-z3-Ly-KYZ2-JC4-maxresdefault.jpg)](https://youtu.be/z3LyKYZ2JC4 "UAV control")
 > Communication is done via websockets between the flutter application(client) and the RPi(server), so make sure you change HOST (both in `flutterDistanceCommunicate.py` and `clientWebSocket.dart`) to your particular private IP address, and ensure both the Pi and the flutter mobile app are connected to the same network.
 
 > ⚠ Make sure to disconnect the resistor to ground from the distance sensor before trying the injection example with the LED's, as the resistor connected to ground might pull down the voltage and LED's may not light up at all.
